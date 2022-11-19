@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<htm lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <meta charset="UTF-8" />
+        <title> MySurvey</title>
+        <!-- Font importing -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+        <h1>freeCodeCamp Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform </p>
+                
+                <!-- <form method="post" action='https://register-demo.freecodecamp.org'> -->
+        <form id="survey-form">
+            <!-- first fieldset -->
+            <fieldset>
+                <label for="full-name"> Name <input type="text" id="full-name" name="first-name" required/></label>
+                <label for="email"> Email <input type="email" id="email" name="email" required/></label>
+                <label for="age"> Age <span>(optional)</span> <input type="number" id="age"  name="age " ></label>
+                
+                    <!-- refferer/selector -->
+                <label for="current-role">Which option best describes your current role?
+                    <select id="current-role" name="current-role">
+                        <option value="">(Select current role)</option>
+                        <option value="1">Student</option>
+                        <option value="2">Full time job</option>
+                        <option value="3">Full time learner</option>
+                        <option value="4">Prefer not to say</option>
+                        <option value="5">Other</option>
+                    </select>
+                </label>
+
+            </fieldset>
+
+            <!-- 2nd fieldset -->
+            <fieldset>
+                <legend>What is your favorite feature of freeCodeCamp?</legend>
+                <label for="definetely">
+                    <input type="radio" id="definetely" value="recomend-type"/>Definetely
+                </label>
+
+                <label for="maybe">
+                    <input type="radio" id="maybe" value="recomend-type"/>Maybe
+                </label>
+                
+                <label for="not-sure">
+                    <input type="radio" id="not-sure" value="recomend-type"/>Not sure
+                </label>
+            </fieldset>
+
+             <!-- 3rd  fieldset:favorite feature -->
+            <fieldset>
+                <label for="favorite-feature">What is your favorite feature of freeCodeCamp?
+                    <select id="favorite-feature" name="favorite-feature">
+                        <option value="">Select an option</option>
+                        <option value="1">Challanges</option>
+                        <option value="2">Projects</option>
+                        <option value="3">Community</option>
+                        <option value="4">Open source</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            
+            <!-- 4th fieldset: checkboxes and textarea -->
+            <fieldset>
+                <legend>What would you like to see improved? <span>(Check all that apply)</span></legend>
+
+                <label for="front-end-proj">
+                    <input type="checkbox" id="front-end-proj"/>Front-ed Projects
+                </label>
+
+                <label for="front-end-proj">
+                    <input type="checkbox" id="front-end-proj"/>Front-ed Projects
+                </label>
+
+                <label for="data-vis">
+                    <input type="checkbox" id="data-vis"/>Data Visualisation
+                </label>
+
+                <label for="challenges">
+                    <input type="checkbox" id="challenges"/>Challanges
+                </label>
+
+                <label for="open-source-com">
+                    <input type="checkbox" id="open-source-com"/>Open Source Community
+                </label>
+
+                <label for="gitter-help">
+                    <input type="checkbox" id="gitter-help"/>Gitter help rooms
+                </label>
+
+                <label for="videos">
+                    <input type="checkbox" id="videos"/>Videos
+                </label>
+
+                <label for="city-meetups">
+                    <input type="checkbox" id="city-meetups"/>City Meetups
+                </label>
+
+                <label for="wiki">
+                    <input type="checkbox" id="wiki"/>Wiki
+                </label>
+
+                <label for="forum">
+                    <input type="checkbox" id="forum"/>Forum
+                </label>
+
+                <label for="addit-courses">
+                    <input type="checkbox" id="addit-courses"/> Additional Courses
+                </label>
+
+
+                <label for="comment"> Any comments or suggestions?
+                    <textarea id="comment" name="comment" rows="3" columns="10" placeholder="Enter your comment here..."></textarea>
+                </label>
+            </fieldset>
+            
+            <input type="submit" value="Submit" />
+           
+
+        </form>
+
+
+    </body>
+
+
+</html>
