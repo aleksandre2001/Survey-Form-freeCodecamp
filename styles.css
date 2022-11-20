@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
 body::before {
     content: '';
@@ -42,14 +42,14 @@ h1{
     line-height: 1.2;
 }
 
-.description{
+#description{
     font-size: 1.25rem;
     font-style: italic;
     font-weight: 200;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-h1, .description {
+h1, #description {
   margin-top: 0;
   margin-bottom: 0.5rem;
   text-align: center;
@@ -137,7 +137,7 @@ textarea {
 }
 
 input,
-button,
+submit,
 select,
 textarea {
   margin: 0;
@@ -146,7 +146,7 @@ textarea {
   line-height: inherit;
 }
 
-#button{
+#submit{
     border: none;
     display: block;
     width: 100%;
