@@ -18,8 +18,8 @@
         <div class="container">
 
             <header class="header">
-                <h1>freeCodeCamp Survey Form</h1>
-                <p class="description">Thank you for taking the time to help us improve the platform </p>
+                <h1 id="title">freeCodeCamp Survey Form</h1>
+                <p id="description">Thank you for taking the time to help us improve the platform </p>
             </header>    
 
 
@@ -29,28 +29,28 @@
              
                 
                 <div class="form-group"> 
-                    <label> Name 
-                        <input type="text" name="first-name" placeholder="Enter your name" tabindex="1" class="form-control" required/>
+                    <label for="name" id="name-label" > Name 
+                        <input id="name" type="text" name="first-name" placeholder="Enter your name" tabindex="1" class="form-control" required/>
                     </label>
                 </div>
 
                 <div class="form-group">
-                    <label> Email 
-                        <input type="email" name="email" placeholder="Enter your Email" tabindex="3" class="form-control" required/>
+                    <label for="email" id="email-label"> Email 
+                        <input type="email" id="email" name="email" placeholder="Enter your Email" tabindex="3" class="form-control" required/>
                     </label>
                 </div>
                     
                 <div class="form-group">
-                    <label> Age <span>(optional)</span> 
-                        <input type="number"  name="age " placeholder="Age" tabindex="2" class="form-control"/>
+                    <label for="number" id="number-label" > Age <span>(optional)</span> 
+                        <input type="number" id="number" name="age " placeholder="Age" tabindex="2" class="form-control" min="2" max="80"/>
                     </label>
                 </div>
 
 
                         <!-- refferer/selector -->
                 <div class="form-group">    
-                    <label for="current-role">Which option best describes your current role?
-                        <select id="current-role" name="current-role" class="form-control" required>
+                    <label for="dropdown">Which option best describes your current role?
+                        <select id="dropdown" name="current-role" class="form-control" required>
                             <option disabled selected value>Select current role</option>
                             <option value="student">Student</option>
                             <option value="fullTimeJob">Full time job</option>
@@ -164,7 +164,7 @@
                 
 
                 <div class="form-group">
-                    <input type="submit" id="button" value="Submit" />
+                    <input type="submit" id="submit" value="Submit" />
                 </div>
 
             </form>
