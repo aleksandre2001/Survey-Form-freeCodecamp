@@ -115,6 +115,7 @@ span{
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
   }
+  
 
 
 .input-radio, .input-checkbox {
@@ -124,6 +125,7 @@ span{
   min-width: 1.25rem;
   vertical-align: top;
 }
+
 
 textarea {
     margin: 0;
@@ -136,6 +138,7 @@ textarea {
   resize: vertical;
 }
 
+
 input,
 submit,
 select,
@@ -145,6 +148,7 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
+
 
 #submit{
     border: none;
