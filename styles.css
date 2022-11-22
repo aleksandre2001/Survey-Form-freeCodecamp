@@ -34,7 +34,7 @@ body{
 
 .header {
     padding: 0 0.625rem;
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.876rem;
 }
 
 h1{
@@ -85,6 +85,7 @@ label, p{
     
 }
 
+
 .form-control{
     display: block;
     width: 100%;
@@ -106,6 +107,7 @@ span{
     font-size: 0.9rem;
     color: #e4e4e4;
 }
+
 .form-group{
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
@@ -115,7 +117,7 @@ span{
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
   }
-  
+
 
 
 .input-radio, .input-checkbox {
